@@ -44,7 +44,7 @@ public class BankTest {
     public void testCalculationOfTheTotalAmountToBeRefundedToTheBank() {
         Client client = new Client("Bob", "Bobow", 750_000, 9.5, 60);
         //arrange
-        double expected = 944_931.11;
+        double expected = 945084.0;
         //act
         double result = sut.CalculationOfTheTotalAmountToBeRefundedToTheBank(client);
         //assert
@@ -54,7 +54,7 @@ public class BankTest {
     public void testCalculationOfOverpaymentForTheEntirePeriod() {
         Client client = new Client("Bob", "Bobow", 750_000, 9.5, 60);
         //arrange
-        double expected = 194_931.11;
+        double expected = 195084.0;
         //act
         double result = sut.CalculationOfOverpaymentForTheEntirePeriod(client);
         //assert

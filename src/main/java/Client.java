@@ -12,4 +12,16 @@ public class Client {
         this.interestRate = interestRate;
         this.numberfMonths = numberfMonths;
     }
+
+    public int getLoanAmount() {
+        return loanAmount;
+    }
+
+    public double getInterestRate() {
+        return interestRate;
+    }
+
+    public int getNumberfMonths() {
+        return numberfMonths;
+    }
 }
